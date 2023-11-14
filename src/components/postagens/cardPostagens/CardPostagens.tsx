@@ -5,7 +5,10 @@ interface CardPostagensProps {
     post: Postagem
 }
 
+
+
 function CardPostagens({ post }: CardPostagensProps) {
+    console.log(post)
     return (
         <div className='border-slate-900 border 
             flex flex-col rounded overflow-hidden justify-between'>
